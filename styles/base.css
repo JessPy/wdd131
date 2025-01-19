@@ -26,6 +26,9 @@ nav a {
     text-decoration: none;
     text-align: center;
 }
+nav a:hover {
+    color: rgb(233, 167, 13);
+}
 
 /* Header Content*/
 header {
@@ -38,7 +41,7 @@ header h1 {
     align-content: center;
     text-align: center;
     color: white;
-    height: 13vh;
+    height: 90px;
 }
 /* Main Content*/
 
@@ -85,6 +88,9 @@ main {
     text-align: center;
     
 }
+.aside a:hover {
+    color: rgb(233, 167, 13);
+}
 .aside * {
     color: black;
 }
@@ -96,7 +102,7 @@ footer {
     background-color: black;
     grid-column: 1/4;
     color: white;
-    height: 10vh;
+    height: 100px;
     text-align: center;
 }
 
